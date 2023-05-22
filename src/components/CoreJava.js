@@ -43,9 +43,21 @@ const CoreJava = () =>{
             <p>System.gc() or Runtime.getRuntime().gc()</p>
             <label>11.  What is marker interface in java? Can you provide some examples of marker interface?</label>
             <p>marker interface is an interface which is an empty interface but it provide some information to jvm when someclasses implements, example of marker interface are :<li>Serializable</li><li>Cloneable</li></p>
+            <label>12 . Do you know how to make a class immutable? Can you provide steps for it?</label>
+            <p>To make class has immuatabel follow these steps :
+                <li>make class final so that no other class extend it</li>
+                <li>make variables as final and private so that variables cannot be changed</li>
+                <li>dont provide setters</li>
+                <li>instantiate constructor so that they can access variables</li>
+            </p>
+            <label>13 . What is the difference between StringBuffer and StringBuilder?</label>
+            <p>Stringbuffer is thread safe and its performance is less</p>
+            <p>StringBuilder is not thread safe and its performance is efficient</p>
+            <label>14 . You have a list of Custom objects? How can you sort them?</label>
+            <p>to sort list of objects we can use Comparable or Comparator</p>
            <p>for more questions : <a href="https://java2blog.com/java-interview-questions-for-2-years-experience/" style={{color:'olivedrab'}}>ClickHere</a></p>
-           
-          
+           <b style={{color:"Orange"}}>Exceptions</b>
+          <label></label>
         </div>
        
         

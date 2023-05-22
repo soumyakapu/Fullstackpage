@@ -65,6 +65,13 @@ code {
   color: cornflowerblue;
   size: 9cap;
 }
+.React{
+  text-align: justify;
+  padding-left: 2%;
+  padding-top: 2%;
+  color: cornflowerblue;
+  size: 9cap;
+}
 .main-link{
   margin-right: 2%;
 }
